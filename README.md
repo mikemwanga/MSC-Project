@@ -8,7 +8,7 @@ G1P[8] is among the most predominant and medically important RVA strain in human
 ## Approach/Questions
 Whats constellations
 
-How is the local diversity/each segment
+How is the local diversity/each segment\n
 Global Diversity
 CLustering patterns
 Vaccinated vs unvaccinated
