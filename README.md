@@ -8,16 +8,26 @@ G1P[8] is among the most predominant and medically important RVA strain in human
 ## Approach/Questions
 Whats constellations
 
-How is the local diversity/each segment\n
+How is the local diversity/each segment 
+
 Global Diversity
+
 CLustering patterns
+
 Vaccinated vs unvaccinated
+
 Pre and post-vaccine
-Cytotoxic T-cells epitopes and B cell epitops
+
+Cytotoxic T-cells epitopes and B cell epitopes
+
 Selection pressure
+
 Amino acid changes
+
 Time Trees
+
 Write-Up 
+
 PHD Applications
 
 ## Methods
