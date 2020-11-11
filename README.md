@@ -5,6 +5,14 @@ G1P[8] is among the most predominant and medically important RVA strain in human
 
 ## Objectives
 
+This study is objected to answer the following questions;
+
+(i)What are the genome constellations of RVA G1P[8] strains circulating before and after vaccine introduction in Kilifi
+(ii)What are the genetic differences at whole genome level of G1P[8] strains with Rotarix vaccine? How are the differences related to reduced vaccine induced pressure?
+(iii)What is the phylogenetic and evolutionary relationship between the observed G1P[8] strains to global strains?
+(iv)What are the origin, spread and transmission patterns of G1P[8] strains in rural Kenya?
+
+
 ## Approach/Questions
 Whats constellations
 
