@@ -39,7 +39,7 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
     Use multiple models in the websuite (FEL, FUBAR, mixed effects model of episodic selection (MEME))
     Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
  
- ![image](https://github.com/mikemwanga/MSC-Project/blob/main/Sites.png)
+ ![image](https://github.com/mikemwanga/MSC-Project/blob/main/Sites_selection_pressure.png)
  
  
  ### Protein modelling
