@@ -38,7 +38,10 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
     Analysis carried out in Datamonkey
     Use multiple models in the websuite (FEL, FUBAR, mixed effects model of episodic selection (MEME))
     Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
-    
+ 
+ ![image](https://github.com/mikemwanga/MSC-Project/blob/main/Sites.png)
+ 
+ 
  ### Protein modelling
   ### Steps
       Choose target template 3D structure on which the target gets threaded
