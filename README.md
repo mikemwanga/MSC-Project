@@ -55,6 +55,7 @@ There is growing evidence that RVA strains carrying different subgenotypes or su
 
 
 Analysis of Tcell epitopes only found two major differences between the vaccine and circulating strains. Figure 3.
+![image](https://github.com/mikemwanga/MSC-Project/blob/main/T_Cell%20epitopes.png)
 
 
 
