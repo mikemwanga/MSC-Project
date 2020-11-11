@@ -34,21 +34,13 @@ PHD Applications
 ### Selection Pressure
 Refers to determining evolutionary rate of protein coding genes - which is based on calculation the ratio of dN/dS substitutions. 
 dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positive selection. The ratio summarizes evolutionary rate of genes and can be an informative feature in identifying genes which are the most conserved and those that are less conserved(undergone adaptive evolution). The rate of change indicates selective pressure occuring at non-synonymous sites.
-  ### Steps
+#### Steps
     Analysis carried out in Datamonkey
     Use multiple models in the websuite (FEL, FUBAR, mixed effects model of episodic selection (MEME))
     Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
  
  ![image](https://github.com/mikemwanga/MSC-Project/blob/main/Sites_selection_pressure.png)
- 
- 
- ### Protein modelling
-  ### Steps
-      Choose target template 3D structure on which the target gets threaded
-       Alignment search using BLOSUM Matrix followed by alignment correction for building the backbone 3D structure
-       Loop modelling perfomed to correct folding for low homology regions
-       Side-chains are constructed using conformation prediction tools
-       
+     
        
 ## Cytotoxic T-Cell Epitopes
 CD8-Tcells play an important role in clearing of RVA infection and providing protection against re-infections.
