@@ -39,7 +39,7 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
     Use multiple models in the websuite (FEL, FUBAR, mixed effects model of episodic selection (MEME))
     Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
  
- ![image](https://github.com/mikemwanga/MSC-Project/blob/main/Sites_selection_pressure.png)
+            ![image](https://github.com/mikemwanga/MSC-Project/blob/main/Sites_selection_pressure.png)
      
        
 ## Cytotoxic T-Cell Epitopes
@@ -50,7 +50,7 @@ There is growing evidence that RVA strains carrying different subgenotypes or su
 
 
 Analysis of Tcell epitopes only found two major differences between the vaccine and circulating strains. Figure 3.
-![image](https://github.com/mikemwanga/MSC-Project/blob/main/T_Cell%20epitopes.png)
+        ![image](https://github.com/mikemwanga/MSC-Project/blob/main/T_Cell%20epitopes.png)
 
 
 
