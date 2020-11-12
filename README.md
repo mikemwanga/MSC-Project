@@ -28,8 +28,10 @@ d. What are the origin, spread and transmission patterns of G1P[8] strains in ru
 
 How is the local diversity/each segment 
 
-Global Diversity
-
+### Global Diversity
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_VP4_VP5_VP1.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5.png" align="center">
 CLustering patterns
 
 Vaccinated vs unvaccinated
