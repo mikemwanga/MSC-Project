@@ -16,11 +16,19 @@ c. What is the phylogenetic and evolutionary relationship between the observed G
 d. What are the origin, spread and transmission patterns of G1P[8] strains in rural Kenya?
 
 
-## Approach/Questions
+
+## Methods
+    Genome assembly
+    
+    Multiple seqeunce alignments
+    
+    Phylogenetic reconstructions
+## Preliminary Outputs
 
 #### G1P[8] prevalence in Kilifi
 
 <img src="https://github.com/mikemwanga/MSC-Project/blob/main/Genotype_prevalence.png" align="center" width="750" height="500">
+
 
 #### Whats constellations
 
@@ -29,25 +37,13 @@ d. What are the origin, spread and transmission patterns of G1P[8] strains in ru
 ### How is the local diversity/each segment/clustering patterns
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Local_diversity_claster_patterm.png" align="center">
 
+
 ### Global Diversity
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_VP4_VP5_VP1.png" align="center">
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2.png" align="center">
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5_2.png" align="center">
 
 
-Vaccinated vs unvaccinated
-
-Pre and post-vaccine
-
-Amino acid changes
-
-Time Trees
-
-Write-Up 
-
-PHD Applications
-
-## Methods
 ### Selection Pressure
 Refers to determining evolutionary rate of protein coding genes - which is based on calculation the ratio of dN/dS substitutions. 
 dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positive selection. The ratio summarizes evolutionary rate of genes and can be an informative feature in identifying genes which are the most conserved and those that are less conserved(undergone adaptive evolution). The rate of change indicates selective pressure occuring at non-synonymous sites.
@@ -76,6 +72,18 @@ Analysis of Tcell epitopes only found two major differences between the vaccine 
 
 
 
+
+Vaccinated vs unvaccinated
+
+Pre and post-vaccine
+
+Amino acid changes
+
+Time Trees
+
+Write-Up 
+
+PHD Applications
 
 
 
