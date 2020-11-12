@@ -24,6 +24,8 @@ d. What are the origin, spread and transmission patterns of G1P[8] strains in ru
 
 Whats constellations
 
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Constellations.png" align="center">
+
 How is the local diversity/each segment 
 
 Global Diversity
