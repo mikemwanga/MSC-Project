@@ -56,7 +56,7 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
     
     3. Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
  
-   <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Sites_selection_pressure.png" align="center">
+   <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Sites_selection_pressure.png" align="right">
 ## B-Cell epitopes
 ### VP7 Epitopes
    <image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_Rotarix_vaccine_epitope.png" align="center">
