@@ -26,21 +26,18 @@ d. What are the origin, spread and transmission patterns of G1P[8] strains in ru
 
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Constellations.png" align="center">
 
-How is the local diversity/each segment 
+### How is the local diversity/each segment/clustering patterns
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Local_diversity_claster_patterm.png" align="center">
 
 ### Global Diversity
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_VP4_VP5_VP1.png" align="center">
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2_2.png" align="center">
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5.png" align="center">
-CLustering patterns
+
 
 Vaccinated vs unvaccinated
 
 Pre and post-vaccine
-
-Cytotoxic T-cells epitopes and B cell epitopes
-
-Selection pressure
 
 Amino acid changes
 
