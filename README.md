@@ -20,7 +20,7 @@ d. What are the origin, spread and transmission patterns of G1P[8] strains in ru
 
 ## G1P[8] prevalence in Kilifi
 
-<img src="https://github.com/mikemwanga/MSC-Project/blob/main/Genotype_prevalence.png" width="48">
+<img src="https://github.com/mikemwanga/MSC-Project/blob/main/Genotype_prevalence.png" width="200" height="200">
 
 Whats constellations
 
