@@ -31,8 +31,8 @@ d. What are the origin, spread and transmission patterns of G1P[8] strains in ru
 
 ### Global Diversity
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_VP4_VP5_VP1.png" align="center">
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2_2.png" align="center">
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5_2.png" align="center">
 
 
 Vaccinated vs unvaccinated
