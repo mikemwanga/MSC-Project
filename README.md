@@ -17,6 +17,11 @@ d. What are the origin, spread and transmission patterns of G1P[8] strains in ru
 
 
 ## Approach/Questions
+
+## G1P[8] prevalence in Kilifi
+
+![image](https://github.com/mikemwanga/MSC-Project/blob/main/Genotype_prevalence.pdf)
+
 Whats constellations
 
 How is the local diversity/each segment 
