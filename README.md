@@ -29,6 +29,7 @@ d. What are the origin, spread and transmission patterns of G1P[8] strains in ru
 
 <img src="https://github.com/mikemwanga/MSC-Project/blob/main/Genotype_prevalence.png" align="center" width="750" height="500">
 
+While there was variation in prevalence of G1P[8] strains, they were continoiusly observed throughout the surveillance period. It caused up to 47% of all RVA infections in Kenya.
 
 #### Whats constellations
 
