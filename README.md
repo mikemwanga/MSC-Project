@@ -46,6 +46,9 @@ All possed a Wa-like genotype constellation, except two post-vaccine strains tha
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2.png" align="center">
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5_2.png" align="center">
 
+### T6 Genotype
+
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/T6.aln.treefile.png" align="center">
 
 ### Selection Pressure
 Refers to determining evolutionary rate of protein coding genes - which is based on calculation the ratio of dN/dS substitutions. 
