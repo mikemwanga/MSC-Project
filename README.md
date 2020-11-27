@@ -29,9 +29,11 @@ d. What are the origin, spread and transmission patterns of G1P[8] strains in ru
 
 <img src="https://github.com/mikemwanga/MSC-Project/blob/main/Genotype_prevalence.png" align="center" width="750" height="500">
 
-While there was variation in prevalence of G1P[8] strains, they were continoiusly observed throughout the surveillance period. It caused up to 47% of all RVA infections in Kenya.
+While there was variation in prevalence of G1P[8] strains, they were continoiusly observed throughout the surveillance period. It was the dominant genotype in 2011, 2013, 2015, and 2017. It caused up to 47% of all RVA infections in Kenya.
 
-#### Whats constellations
+#### What are the genomic constellations of G1P[8]
+
+All possed a Wa-like genotype constellation, except two post-vaccine strains that; one possed a DS-1 like genotype E2 on the NSP4 gene segment, and the other possed a T6 genotype on the NSP3 gene segment. Potential rearssortants.
 
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Constellations.png" align="center">
 
