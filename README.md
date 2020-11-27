@@ -77,21 +77,7 @@ Analysis of Tcell epitopes only found two major differences between the vaccine 
         ![image](https://github.com/mikemwanga/MSC-Project/blob/main/T_Cell%20epitopes.png)
 
 
-
-
-
-Vaccinated vs unvaccinated
-
-Pre and post-vaccine
-
-Amino acid changes
-
-Time Trees
-
-Write-Up 
-
-PHD Applications
-
+## BEAST Analysis
 
 
 
