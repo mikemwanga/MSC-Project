@@ -87,9 +87,9 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
   3. Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
  <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Sites_selection_pressure.png" align="center">
   
-  Non of the pre and post vaccine changes were detected to be under any selection
+  None of the pre and post vaccine changes were detected to be under any selection
   
-  <image src="https://github.com/mikemwanga/MSC-Project/blob/main/alignment.png" align="center">
+  <image src="https://github.com/mikemwanga/MSC-Project/blob/main/alignment.png" align="center" width='650' height='550'>
   
     
 ## Comparison of B-cell epitopes between the vaccine strain and the locally observed strains <br>
