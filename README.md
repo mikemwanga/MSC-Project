@@ -51,17 +51,30 @@ Shows pairwise genetic distances within each gene, from Kilifi data <br>
 Genetic distances supports corcirculation of multiple clusters of the G1P[8] strains
 
 ### Global Diversity
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_VP4_VP5_VP1.png" align="center" width='550' height='550'>
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2.png" align="center" width='550' height='550'>
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5_2.png" align="center" width='550' height='550'>
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_VP4_VP5_VP1.png" align="center" width='650' height='550'>
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2.png" align="center" width='650' height='550'>
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5_2.png" align="center" width='750' height='600'>
+    
+Local strains cluster with similar genotypes observed across the world. <br>
+The vaccine strain clustered distantyl <br>
+
 
 ### T6 Genotype
 
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/T6.aln.treefile.png" align="center">
     
+ Phylogeny of genotype T6 <br>
+ Closest to a T6 genotype isolated from goat in Uganda 2014 and bovine from Italy . <br> 
+ Potential rearsortant strain or zoonotic transmission
+ 
+    
 ### E2 Genotype
 
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/E2.aln.nwk.png" align="center">
+    
+ Clustred with rearsortant strains from Vietnam and Japan <br>
+ Potential rearsortant between DS-1-like and Wa-like strains.
+ 
 
 ### Selection Pressure
 Refers to determining evolutionary rate of protein coding genes - which is based on calculation the ratio of dN/dS substitutions. 
