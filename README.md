@@ -82,20 +82,21 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
 
 ## Steps
 
-    1. Analysis carried out in Datamonkey
+  1. Analysis carried out in Datamonkey <br>  
+  2. Use multiple models in the website (FEL, FUBAR, mixed effects model of episodic selection (MEME)) <br>
+  3. Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
+ <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Sites_selection_pressure.png" align="center">
     
-    2. Use multiple models in the websuite (FEL, FUBAR, mixed effects model of episodic selection (MEME))
-    
-    3. Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
- 
-   <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Sites_selection_pressure.png" align="center">
-## B-Cell epitopes
+##Comparison of B-cell epitopes between the vaccine strain and the locally observed strains <br>
+Amino acid identity between the epitopes and the vaccine implies the compatibility of the antibodies to the antigens. Differences imply potential failure by the vaccine strains to recognize antigens upon infection.
 ### VP7 Epitopes
    <image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_Rotarix_vaccine_epitope.png" align="center">
 
 
 ### VP4 Epitopes
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP4_Rotarix_epitope.png" align="center">
+    
+No unique epitopes observed in the vaccine strains. No changes in the epitopes after vaccine introduction.
        
 ## Cytotoxic VP7 T-Cell Epitopes
 CD8-Tcells play an important role in clearing of RVA infection and providing protection against re-infections.
@@ -108,7 +109,7 @@ Analysis of Tcell epitopes only found two major differences between the vaccine 
         ![image](https://github.com/mikemwanga/MSC-Project/blob/main/T_Cell%20epitopes.png)
 
 
-## BEAST Analysis
+## Phylogeography Analysis
 
 
 
