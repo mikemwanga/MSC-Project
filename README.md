@@ -45,15 +45,15 @@ Post-vaccines formed single clusters across all the segments except for segments
 A single post-vaccine strain from 2015 clustered with pre-vaccine strains across all the 11 segments. Indicative of countinued circulation of pre-vaccine after vaccine introduction.<br>
 
 ## Local genetic diversity
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Genetic_diversity_local.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Genetic_diversity_local.png" align="center" width='650' height='650'>
   
 Shows pairwise genetic distances within each gene, from Kilifi data <br>
 Genetic distances supports corcirculation of multiple clusters of the G1P[8] strains
 
 ### Global Diversity
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_VP4_VP5_VP1.png" align="center">
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2.png" align="center">
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5_2.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_VP4_VP5_VP1.png" align="center" width='550' height='550'>
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2.png" align="center" width='550' height='550'>
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5_2.png" align="center" width='550' height='550'>
 
 ### T6 Genotype
 
