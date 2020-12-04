@@ -89,7 +89,7 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
   
   None of the pre and post vaccine changes were detected to be under any selection
   
-  <image src="https://github.com/mikemwanga/MSC-Project/blob/main/alignment.png" align="center" width='650' height='550'>
+  <image src="https://github.com/mikemwanga/MSC-Project/blob/main/alignment.png" align="center" width='800' height='550'>
   
     
 ## Comparison of B-cell epitopes between the vaccine strain and the locally observed strains <br>
