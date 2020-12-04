@@ -39,7 +39,10 @@ All possed a Wa-like genotype constellation, except two post-vaccine strains tha
 
 ### How is the local diversity/each segment/clustering patterns
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Local_diversity_claster_patterm.png" align="center">
-
+Distinct clustering of pre and post vaccine strains in all the segments
+All Gene segmenets partitioned into multiple clusters. Pre-vaccine strains formed multiple clusters in genes VP1, VP3, NSP1, NSP2 NSP3
+Post-vaccines formed single clusters across all the segments except for segments NSP3 and NSP4 (different genogroup types).
+A single post-vaccine strain from 2015 clustered with pre-vaccine strains across all the 11 segments. Indicative of countinued circulation of pre-vaccine after vaccine introduction.
 
 ### Global Diversity
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_VP4_VP5_VP1.png" align="center">
