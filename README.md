@@ -27,7 +27,7 @@ d. What are the origin, spread and transmission patterns of G1P[8] strains in ru
 
 #### G1P[8] prevalence in Kilifi
 
-<img src="https://github.com/mikemwanga/MSC-Project/blob/main/Genotype_prevalence.png" align="center" width="750" height="500">
+<img src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Genotype_prevalence.png" align="center" width="750" height="500">
 
 While there was variation in prevalence of G1P[8] strains, they were continoiusly observed throughout the surveillance period. It was the dominant genotype in 2011, 2013, 2015, and 2017. It caused up to 47% of all RVA infections in Kenya.
 
@@ -35,25 +35,25 @@ While there was variation in prevalence of G1P[8] strains, they were continoiusl
 
 All possed a Wa-like genotype constellation, except two post-vaccine strains that; one possed a DS-1 like genotype E2 on the NSP4 gene segment, and the other possed a T6 genotype on the NSP3 gene segment. Potential rearssortants.
 
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Constellations.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Constellations.png" align="center">
 
 ### How is the local diversity/each segment/clustering patterns
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Local_diversity_claster_patterm.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Local_diversity_claster_patterm.png" align="center">
 Distinct clustering of pre and post vaccine strains in all the segments. <br>
 All Gene segmenets partitioned into multiple clusters. Pre-vaccine strains formed multiple clusters in genes VP1, VP3, NSP1, NSP2 NSP3. <br>
 Post-vaccines formed single clusters across all the segments except for segments NSP3 and NSP4 (different genogroup types). <br>
 A single post-vaccine strain from 2015 clustered with pre-vaccine strains across all the 11 segments. Indicative of countinued circulation of pre-vaccine after vaccine introduction.<br>
 
 ## Local genetic diversity
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Genetic_diversity_local.png" align="center" width='650' height='650'>
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Genetic_diversity_local.png" align="center" width='650' height='650'>
   
 Shows pairwise genetic distances within each gene, from Kilifi data <br>
 Genetic distances supports corcirculation of multiple clusters of the G1P[8] strains
 
 ### Global Diversity
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_VP4_VP5_VP1.png" align="center" width='650' height='550'>
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP2_VP3_NSP1_NSP2.png" align="center" width='650' height='550'>
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/NSP3_NSP4_NSP5_2.png" align="center" width='750' height='600'>
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/VP7_VP4_VP5_VP1.png" align="center" width='650' height='550'>
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/VP2_VP3_NSP1_NSP2.png" align="center" width='650' height='550'>
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/NSP3_NSP4_NSP5_2.png" align="center" width='750' height='600'>
     
 Local strains cluster with similar genotypes observed across the world. <br>
 The vaccine strain clustered distantyl <br>
@@ -61,7 +61,7 @@ The vaccine strain clustered distantyl <br>
 
 ### T6 Genotype
 
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/T6.aln.treefile.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/T6.aln.treefile.png" align="center">
     
  Phylogeny of genotype T6 <br>
  Closest to a T6 genotype isolated from goat in Uganda 2014 and bovine from Italy . <br> 
@@ -70,7 +70,7 @@ The vaccine strain clustered distantyl <br>
     
 ### E2 Genotype
 
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/E2.aln.nwk.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/E2.aln.nwk.png" align="center">
     
  Clustred with rearsortant strains from Vietnam and Japan <br>
  Potential rearsortant between DS-1-like and Wa-like strains.
@@ -85,21 +85,21 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
   1. Analysis carried out in Datamonkey <br>  
   2. Use multiple models in the website (FEL, FUBAR, mixed effects model of episodic selection (MEME)) <br>
   3. Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
- <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Sites_selection_pressure.png" align="center">
+ <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Sites_selection_pressure.png" align="center">
   
   None of the pre and post vaccine changes were detected to be under any selection
   
-  <image src="https://github.com/mikemwanga/MSC-Project/blob/main/alignment.png" align="center" width='800' height='550'>
+  <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/alignment.png" align="center" width='800' height='550'>
   
     
 ## Comparison of B-cell epitopes between the vaccine strain and the locally observed strains <br>
 Amino acid identity between the epitopes and the vaccine implies the compatibility of the antibodies to the antigens. Differences imply potential failure by the vaccine strains to recognize antigens upon infection.
 ### VP7 Epitopes
-   <image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP7_Rotarix_vaccine_epitope.png" align="center">
+   <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Iamges/VP7_Rotarix_vaccine_epitope.png" align="center">
 
 
 ### VP4 Epitopes
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/VP4_Rotarix_epitope.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/VP4_Rotarix_epitope.png" align="center">
     
 No unique epitopes observed in the vaccine strains. No changes in the epitopes after vaccine introduction.
        
@@ -111,7 +111,7 @@ There is growing evidence that RVA strains carrying different subgenotypes or su
 
 
 Analysis of Tcell epitopes only found two major differences between the vaccine and circulating strains. Figure 3.
-        ![image](https://github.com/mikemwanga/MSC-Project/blob/main/T_Cell%20epitopes.png)
+        ![image](https://github.com/mikemwanga/MSC-Project/blob/main/Images/T_Cell%20epitopes.png)
 
 
 ## Phylogeography Analysis
