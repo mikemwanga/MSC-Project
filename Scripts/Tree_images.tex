@@ -1,0 +1,356 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Phylogenetics\_Rotavirus},
+  pdfauthor={mike\_mwanga},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{Phylogenetics\_Rotavirus}
+\author{mike\_mwanga}
+\date{10/5/2020}
+
+\begin{document}
+\maketitle
+
+\begin{verbatim}
+## Registered S3 method overwritten by 'treeio':
+##   method     from
+##   root.phylo ape
+\end{verbatim}
+
+\begin{verbatim}
+## ggtree v2.2.4  For help: https://yulab-smu.github.io/treedata-book/
+## 
+## If you use ggtree in published research, please cite the most appropriate paper(s):
+## 
+## [36m-[39m Guangchuang Yu. Using ggtree to visualize data on tree-like structures. Current Protocols in Bioinformatics, 2020, 69:e96. doi:10.1002/cpbi.96
+## [36m-[39m Guangchuang Yu, Tommy Tsan-Yuk Lam, Huachen Zhu, Yi Guan. Two methods for mapping and visualizing associated data on phylogeny using ggtree. Molecular Biology and Evolution 2018, 35(12):3041-3043. doi:10.1093/molbev/msy194
+## [36m-[39m Guangchuang Yu, David Smith, Huachen Zhu, Yi Guan, Tommy Tsan-Yuk Lam. ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other associated data. Methods in Ecology and Evolution 2017, 8(1):28-36. doi:10.1111/2041-210X.12628
+\end{verbatim}
+
+\begin{verbatim}
+## treeio v1.12.0  For help: https://yulab-smu.github.io/treedata-book/
+## 
+## If you use treeio in published research, please cite:
+## 
+## LG Wang, TTY Lam, S Xu, Z Dai, L Zhou, T Feng, P Guo, CW Dunn, BR Jones, T Bradley, H Zhu, Y Guan, Y Jiang, G Yu. treeio: an R package for phylogenetic tree input and output with richly annotated and associated data. Molecular Biology and Evolution 2020, 37(2):599-603. doi: 10.1093/molbev/msz240
+\end{verbatim}
+
+\begin{verbatim}
+## Loading required package: ape
+\end{verbatim}
+
+\begin{verbatim}
+## 
+## Attaching package: 'ape'
+\end{verbatim}
+
+\begin{verbatim}
+## The following object is masked from 'package:treeio':
+## 
+##     drop.tip
+\end{verbatim}
+
+\begin{verbatim}
+## The following object is masked from 'package:ggtree':
+## 
+##     rotate
+\end{verbatim}
+
+\begin{verbatim}
+## 
+## Attaching package: 'phylotools'
+\end{verbatim}
+
+\begin{verbatim}
+## The following objects are masked from 'package:treeio':
+## 
+##     read.fasta, read.phylip
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/VP7/Global/VP7.aln5.fas.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/VP7/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{pp7 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{))}
+
+\NormalTok{pp7}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-2-1.pdf}
+VP7 Tree
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/VP4/Global/VP4.aln5.fas.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/VP4/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{pp4 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{))}
+\NormalTok{pp4}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-3-1.pdf}
+VP4 Tree
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/VP6/Global/VP6.aln3.fas.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/VP6/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{pp6 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{,}\StringTok{"pink"}\NormalTok{))}
+\NormalTok{pp6}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-4-1.pdf}
+VP6 Tree
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/VP1/Global/VP1.aln6.fas.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/VP1/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{pp1 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{,}\StringTok{"pink"}\NormalTok{))}
+\NormalTok{pp1}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-5-1.pdf}
+VP1 Tree
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/VP2/Global/VP2.aln4.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/VP2/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{pp2 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{,}\StringTok{"pink"}\NormalTok{))}
+\NormalTok{pp2}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-6-1.pdf}
+VP2 Tree
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/VP3/Global/VP3.aln4.fas.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/VP3/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{pp3 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{,}\StringTok{"pink"}\NormalTok{))}
+\NormalTok{pp3}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-7-1.pdf}
+VP3 Tree
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/NSP1/Global/NSP1.aln3.fas.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/NSP1/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{ppn1 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{,}\StringTok{"pink"}\NormalTok{))}
+\NormalTok{ppn1}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-8-1.pdf}
+NSP1 Tree
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/NSP2/Global/NSP2.aln4.fas.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/NSP2/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{ppn2 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{,}\StringTok{"pink"}\NormalTok{))}
+\NormalTok{ppn2}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-9-1.pdf}
+NSP2 Tree
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/NSP3/Global/NSP3.aln6.fas.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/NSP3/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{ppn3 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{))}
+\NormalTok{ppn3}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-10-1.pdf}
+NSP3 Tree
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/NSP4/Global/NSP4.aln8.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/NSP4/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{ppn4 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{))}
+\NormalTok{ppn4}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-11-1.pdf}
+NSP4 Tree
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/NSP5/Global/NSP5.aln5.fas.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/NSP5/Global/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{ppn5 <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period), }\DataTypeTok{size=}\FloatTok{1.5}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"black"}\NormalTok{, }\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{))}
+\NormalTok{ppn5}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-12-1.pdf}
+NSP5 Tree
+
+Generating trees for local data only. No global data on this.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{tree <-}\StringTok{ }\KeywordTok{read.tree}\NormalTok{(}\StringTok{"./Data/VP7/Local/G1P8.local.fas.nwk"}\NormalTok{)}
+\NormalTok{tip_metadata <-}\StringTok{ }\KeywordTok{read.table}\NormalTok{(}\StringTok{"./Data/VP7/Local/Annotation.txt"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{"}\CharTok{\textbackslash{}t}\StringTok{"}\NormalTok{, }\DataTypeTok{header=}\OtherTok{TRUE}\NormalTok{,}\DataTypeTok{check.names=}\OtherTok{FALSE}\NormalTok{, }\DataTypeTok{stringsAsFactor=}\NormalTok{F)}
+
+
+\NormalTok{vp7_local <-}\StringTok{ }\KeywordTok{ggtree}\NormalTok{(tree) }\OperatorTok{%<+%}\StringTok{ }\NormalTok{tip_metadata }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_tippoint}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color=}\NormalTok{Period, }\DataTypeTok{shape=}\NormalTok{Vaccination_Status), }\DataTypeTok{size=}\DecValTok{3}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{scale_color_manual}\NormalTok{(}\DataTypeTok{values=}\KeywordTok{c}\NormalTok{(}\StringTok{"red"}\NormalTok{,}\StringTok{"blue"}\NormalTok{)) }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_rootedge}\NormalTok{()}
+\NormalTok{vp7_local}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Tree_images_files/figure-latex/unnamed-chunk-13-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#pre = tip_metadata$Strain[tip_metadata$Period == "Pre-vaccine"]}
+
+\CommentTok{#tree2 = groupOTU(tree,focus=pre)}
+\end{Highlighting}
+\end{Shaded}
+
+\end{document}

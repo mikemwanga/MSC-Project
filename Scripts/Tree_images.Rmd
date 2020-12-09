@@ -1,0 +1,193 @@
+---
+title: "Phylogenetics_Rotavirus"
+author: "mike_mwanga"
+date: "10/5/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup,echo=FALSE,message=FALSE,warning=FALSE}
+knitr::opts_knit$set(root.dir ="/Users/mikemwanga/Documents/MSC_Work/MSC_Project/")
+library(knitr)
+```
+
+
+
+```{r,echo=FALSE}
+library(ggtree)
+library(treeio)
+library(phylotools)
+```
+
+
+```{r}
+tree <- read.tree("./Data/VP7/Global/VP7.aln5.fas.nwk")
+tip_metadata <- read.table("./Data/VP7/Global/Annotation3.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+pp7 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Key), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","tan4","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+
+pp7
+```
+VP7 Tree
+
+```{r}
+tree <- read.tree("./Data/VP4/Global/VP4.aln5.fas.nwk")
+tip_metadata <- read.table("./Data/VP4/Global/Annotation2.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+pp4 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Key), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+pp4
+```
+VP4 Tree
+```{r}
+tree <- read.tree("./Data/VP6/Global/VP6.aln3.fas.nwk")
+tip_metadata <- read.table("./Data/VP6/Global/Annotation2.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+pp6 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Key), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","tan4","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+pp6
+```
+VP6 Tree
+
+```{r}
+tree <- read.tree("./Data/VP1/Global/VP1.aln6.fas.nwk")
+tip_metadata <- read.table("./Data/VP1/Global/Annotation2.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+pp1 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Period), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+pp1
+```
+VP1 Tree
+
+
+```{r}
+tree <- read.tree("./Data/VP2/Global/VP2.aln4.nwk")
+tip_metadata <- read.table("./Data/VP2/Global/Annotation2.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+pp2 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Key), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+pp2
+```
+VP2 Tree
+
+```{r}
+tree <- read.tree("./Data/VP3/Global/VP3.aln4.fas.nwk")
+tip_metadata <- read.table("./Data/VP3/Global/Annotation2.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+pp3 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Key), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","tan4","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+pp3
+```
+VP3 Tree
+
+
+```{r}
+tree <- read.tree("./Data/NSP1/Global/NSP1.aln3.fas.nwk")
+tip_metadata <- read.table("./Data/NSP1/Global/Annotation2.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+ppn1 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Key), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","tan4","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+ppn1
+```
+NSP1 Tree
+
+
+```{r}
+tree <- read.tree("./Data/NSP2/Global/NSP2.aln4.fas.nwk")
+tip_metadata <- read.table("./Data/NSP2/Global/Annotation2.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+ppn2 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Key), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","tan4","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+ppn2
+```
+NSP2 Tree
+
+```{r}
+tree <- read.tree("./Data/NSP3/Global/NSP3.aln6.fas.nwk")
+tip_metadata <- read.table("./Data/NSP3/Global/Annotation2.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+ppn3 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Key), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","tan4","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+ppn3
+```
+NSP3 Tree
+
+
+```{r}
+tree <- read.tree("./Data/NSP4/Global/NSP4.aln8.nwk")
+tip_metadata <- read.table("./Data/NSP4/Global/Annotation2.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+ppn4 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Key), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","tan4","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+ppn4
+```
+NSP4 Tree
+```{r}
+tree <- read.tree("./Data/NSP5/Global/NSP5.aln5.fas.nwk")
+tip_metadata <- read.table("./Data/NSP5/Global/Annotation2.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+ppn5 <- ggtree(tree,size=0.3) %<+% tip_metadata + geom_tippoint(aes(color=Key), size=0.5)+
+  scale_color_manual(values=c("yellow","black","blueviolet","tan4","brown","red","blue3","green"))+
+  theme(legend.position = "left")
+ppn5
+```
+NSP5 Tree
+
+
+Generating trees for local data only. No global data on this.
+```{r}
+tree <- read.tree("./Data/VP7/Local/G1P8.local.fas.nwk")
+tip_metadata <- read.table("./Data/VP7/Local/Annotation.txt", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+
+
+vp7_local <- ggtree(tree) %<+% tip_metadata + geom_tippoint(aes(color=Period, shape=Vaccination_Status), size=3)+
+  scale_color_manual(values=c("red","blue")) + geom_rootedge()
+vp7_local
+
+#pre = tip_metadata$Strain[tip_metadata$Period == "Pre-vaccine"]
+
+#tree2 = groupOTU(tree,focus=pre)
+
+```
+
+```{r}
+library(lemon)
+library(grid)
+library(gridExtra)
+
+grid_arrange_shared_legend(pp7,pp4,pp6,pp1,ncol=2,nrow=2)
+ggsave('image.pdf')
+
+```
+
+```{bash}
+cd /Users/mikemwanga/Documents/MSC_Work/MSC_Project/Data
+treetime --tree ./VP7/Global/VP7.aln5.fas2.nwk --aln ./VP7/Global/VP7.aln6.fasta --dates ./VP7/Global/dates.txt
+
+
+```
+
+
