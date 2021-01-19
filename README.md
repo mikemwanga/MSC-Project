@@ -61,7 +61,7 @@ The vaccine strain clustered distantyl <br>
 
 ### T6 Genotype
 
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/T6.aln.treefile.png" align="center">
+  <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/T6.aln.treefile.png" align="center">
     
  Phylogeny of genotype T6 <br>
  Closest to a T6 genotype isolated from goat in Uganda 2014 and bovine from Italy . <br> 
@@ -70,7 +70,7 @@ The vaccine strain clustered distantyl <br>
     
 ### E2 Genotype
 
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/E2.aln.nwk.png" align="center">
+    <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/E2.aln.nwk.png" align="center">
     
  Clustred with rearsortant strains from Vietnam and Japan <br>
  Potential rearsortant between DS-1-like and Wa-like strains.
@@ -85,11 +85,11 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
   1. Analysis carried out in Datamonkey <br>  
   2. Use multiple models in the website (FEL, FUBAR, mixed effects model of episodic selection (MEME)) <br>
   3. Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
- <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Sites_selection_pressure.png" align="center">
+      <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Sites_selection_pressure.png" align="center">
   
   None of the pre and post vaccine changes were detected to be under any selection
   
-  <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/alignment.png" align="center" width='800' height='550'>
+      <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/alignment.png" align="center" width='800' height='550'>
   
     
 ## Comparison of B-cell epitopes between the vaccine strain and the locally observed strains <br>
@@ -99,7 +99,7 @@ Amino acid identity between the epitopes and the vaccine implies the compatibili
 
 
 ### VP4 Epitopes
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/VP4_Rotarix_epitope.png" align="center">
+    <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/VP4_Rotarix_epitope.png" align="center">
     
 No unique epitopes observed in the vaccine strains. No changes in the epitopes after vaccine introduction.
        
@@ -116,7 +116,9 @@ Analysis of Tcell epitopes only found two major differences between the vaccine 
 
 ## Phylogeography Analysis
 ## Change in diversity before and after VI
-
-
+## Map vaccination status of your geographical location
+## Map areas where G1P8 was identified
+## Perfome network analysis or something
+## Protein structure based on the B/A vacine changes
 
 
