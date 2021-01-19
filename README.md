@@ -114,6 +114,10 @@ Analysis of Tcell epitopes only found two major differences between the vaccine 
         ![image](https://github.com/mikemwanga/MSC-Project/blob/main/Images/T_Cell%20epitopes.png)
 
 
+## Evolutionary rate, time scaled phylogeny and population dynamic analysis
+    1. Perform Cluster analysis and sequence similarity was carried out using the online tool CD-HIT version 4.6 http://weizhongli- lab.org/cdhit_suite/cgi-bin/index.cgi?cmd1⁄4cd-hit-est. 
+    2. The strength of the temporal clock signal of the dataset was carried out by conducting a regression of root to tip genetic distances against year of sampling analysis using TempEst v 1.5
+    3.Two clock models were initially evaluated strict and relaxed molecular clock, with four different tree priors, constant population size, exponential population size, Bayesian Skyride plot and Gausian Markov Random Field Skyride plot. Each selected model was run for an initial 30, 000, 000 states. Models were then compare using the Bayes factor with marginal likelihood estimated using the path sampling and stepping stone methods imple- mented in BEAST version 1.10.4 [19]. Further analysis was then done using the relaxed clock with Gausian Markov Random Field Skyride plot coalescent prior. The MCMC run was set at 100, 000, 000 states with a 10% burn in. Results were visualised in Tracer version 1.8. (http://tree. bio.ed.ac.uk/software/tracer/). The effective sampling size (ESS) was calculated for each parameter, all ESS values were >200 indicating suf- ficient sampling. Bayesian skyride analysis was carried out to visualise the epidemic evolutionary history using Tracer v 1.8. (http://tree.bio.ed. ac.uk/software/tracer/). The maximum clade credibility tree was selected from the posterior tree distribution after 10% burn-in using TreeAnnotator v 1.8. (http://beast.bio.ed.ac.uk/TreeAnnotator/) and a time scaled MCC tree was visualised in FigTree vs 1.4.
 ## Phylogeography Analysis
 ## Change in diversity before and after VI
 ## Map vaccination status of your geographical location
