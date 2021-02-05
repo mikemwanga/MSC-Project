@@ -15,7 +15,9 @@ To investigate the genomic characteristics of RVA G1P[8] strains circulating in 
 ## Specific Objective
 
 •	To investigate the complete genome constellations and genetic diversity of RVA G1[8] strains circulating before and after vaccine introduction in Kilifi.
+
 •	To determine the phylogenetic and evolutionary relationship between the coastal Kenya G1P[8] strains and contemporaneous G1P[8] strains collected around the globe.
+
 •	To determine the origins, and spread patterns of G1P[8] strains in Kilifi,  rural coastal Kenya in the pre- and post-rotavirus vaccine introduction era.
 
 
