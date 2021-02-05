@@ -121,12 +121,34 @@ Perform Cluster analysis and sequence similarity was carried out using the onlin
 ### Bayesian analysis of local data
 Tempest showed sufficient signal for the local data
 
-![image](https://github.com/mikemwanga/MSC-Project/blob/main/Images/tempest_sufficient_signal)
+![image](https://github.com/mikemwanga/MSC-Project/blob/main/Images/tempest_sufficient_signal.png)
+
 Performed coalescence analysis usin Beauti and Beast using the following parameters
  - Lognormal relaxed (uncorrelated) clock model (67), 
  - Constant-size coalescent tree prior, 
  - Hasegawa- Kishino-Yano (HKY85) nucleotide substitution model with estimated base frequencies (68), 
  - Site heterogeneity model with 4 rate categories 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
