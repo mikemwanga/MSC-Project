@@ -65,7 +65,7 @@ The vaccine strain clustered distantyl <br>
 
 ### T6 Genotype
 
-  <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/T6.aln.treefile.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/T6.aln.treefile.png" align="center">
     
  Phylogeny of genotype T6 <br>
  Closest to a T6 genotype isolated from goat in Uganda 2014 and bovine from Italy . <br> 
@@ -74,7 +74,7 @@ The vaccine strain clustered distantyl <br>
     
 ### E2 Genotype
 
-    <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/E2.aln.nwk.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/E2.aln.nwk.png" align="center">
     
  Clustred with rearsortant strains from Vietnam and Japan <br>
  Potential rearsortant between DS-1-like and Wa-like strains.
