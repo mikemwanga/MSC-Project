@@ -2,18 +2,21 @@
 Whole genome analysis of RVA G1P[8] strain before and after vaccine introduction in Kenya
 ## Abstract
 
-## Objectives
+Group A rotaviruses (RVA) are a leading cause of severe acute gastroenteritis in young children worldwide.  RVA clinical isolates show extensive genetic variability especially within the two outer capsid proteins named, VP7 (G) and VP4 (P) that are key targets of human immune responses. These two proteins form the basis for its binary (GP) RVA classification system. Kenya introduced the monovalent Rotarix® vaccine (derived from a live attenuated G1P[8] rotavirus strain) in July 2014.  This vaccine is expected to provide homotypic and heterotypic protection against circulating RVA strains. However, RVA vaccines including Rotarix® have shown lower efficacy in developing countries compared to developed countries for reasons that remain unclear to date. Continual RVA surveillance in Kilifi (coastal Kenya), since 2010, has shown a high prevalence of G1P[8] strains in both pre- and post-vaccination periods. Analysis of whole genome sequence data has potential to provide insight on the reasons underlying the vaccine underperformance and local persistence of G1P[8] strains despite ongoing nation-wide Rotarix® vaccination.  Genomic mutations, frequent genetic reassortment, and increased vaccine mediated-immunity might lead to antigenic evolution and development of vaccine escape strains. Further, close monitoring of G1P[8] is needed to provide insight into the origin of continued RVA cases as incidence declines. During this proposed project, I will undertake a whole-genomic analysis of G1P[8] strains collected in Kilifi Kenya before and after the Rotarix® vaccination programme took effect to determine the patterns of genome-wide variation of G1P[8] strains and temporal patterns of RVA phylogeny. This will advance the understanding of the impact of vaccination on RVA genetic diversity and transmission, particularly G1P[8] genotype.
 
-This study is objected to answer the following questions;
+## Problem Statement
+RVA has been associated with high morbidity and mortality among children in developing countries. It is estimated that two thirds of RVA associated deaths occur in sub-Saharan Africa. Contrary to results from the developed countries, developing countries have experienced only modest vaccine performance and so far, the underlying reason for this underperformance remain uncertain. For long, this burden has been associated predominantly by RVA G1P[8] strains.  While a vaccine against RVA is available, it is not clear whether the vaccine protects equally against all lineages within genotype G1P[8] and how this affects its performance. Additionally, due to their segmented nature, RVAs can undergo reassortments in addition to point mutations that can result in amino acid changes, which may lead to increased antigenic variation conferring immune escape by some G1P[8] strains and eventually lower vaccine performance. However, despite, the significance of circulating G1P[8] strains, there is limited understanding on the evolutionary dynamics and impact of the vaccine on the genetic variability of this strain. 
 
-a. What are the genome constellations of RVA G1P[8] strains circulating before and after vaccine introduction in Kilifi
 
-b. What are the genetic differences at whole genome level of G1P[8] strains with Rotarix vaccine? How are the differences related to reduced vaccine induced pressure?
+## Main Objectives
 
-c. What is the phylogenetic and evolutionary relationship between the observed G1P[8] strains to global strains?
+To investigate the genomic characteristics of RVA G1P[8] strains circulating in rural Kenya and investigate their evolutionary dynamics in pre- and post-vaccine periods.
 
-d. What are the origin, spread and transmission patterns of G1P[8] strains in rural Kenya?
+## Specific Objective
 
+•	To investigate the complete genome constellations and genetic diversity of RVA G1[8] strains circulating before and after vaccine introduction in Kilifi.
+•	To determine the phylogenetic and evolutionary relationship between the coastal Kenya G1P[8] strains and contemporaneous G1P[8] strains collected around the globe.
+•	To determine the origins, and spread patterns of G1P[8] strains in Kilifi,  rural coastal Kenya in the pre- and post-rotavirus vaccine introduction era.
 
 
 ## Methods
