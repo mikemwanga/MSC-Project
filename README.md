@@ -130,7 +130,7 @@ Performed coalescence analysis usin Beauti and Beast using the following paramet
  - Site heterogeneity model with 4 rate categories 
 
 
-
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Screenshot%202021-02-05%20at%2013.53.33.png" align="center">
 
 
 
