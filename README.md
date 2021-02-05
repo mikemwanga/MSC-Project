@@ -35,35 +35,42 @@ To investigate the genomic characteristics of RVA G1P[8] strains circulating in 
 
 While there was variation in prevalence of G1P[8] strains, they were continoiusly observed throughout the surveillance period. It was the dominant genotype in 2011, 2013, 2015, and 2017. It caused up to 47% of all RVA infections in Kenya.
 
+### Objective 1: 
+
 #### What are the genomic constellations of G1P[8]
 
 All possed a Wa-like genotype constellation, except two post-vaccine strains that; one possed a DS-1 like genotype E2 on the NSP4 gene segment, and the other possed a T6 genotype on the NSP3 gene segment. Potential rearssortants.
 
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Constellations.png" align="center">
 
-### How is the local diversity/each segment/clustering patterns
+### Objective 2:
+
+### a. How is the local diversity/each segment/clustering patterns
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Local_diversity_claster_patterm.png" align="center">
+
 Distinct clustering of pre and post vaccine strains in all the segments. <br>
 All Gene segmenets partitioned into multiple clusters. Pre-vaccine strains formed multiple clusters in genes VP1, VP3, NSP1, NSP2 NSP3. <br>
 Post-vaccines formed single clusters across all the segments except for segments NSP3 and NSP4 (different genogroup types). <br>
 A single post-vaccine strain from 2015 clustered with pre-vaccine strains across all the 11 segments. Indicative of countinued circulation of pre-vaccine after vaccine introduction.<br>
 
-## Local genetic diversity
+**Violin plot representing pairwise distance within local strains**
+
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Genetic_diversity_local.png" align="center" width='650' height='650'>
   
 Shows pairwise genetic distances within each gene, from Kilifi data <br>
 Genetic distances supports corcirculation of multiple clusters of the G1P[8] strains
 
-### Global Diversity
+#### b. Whats the genetic relationship between local strains and Global contemporaneous strains plus the vaccine strain
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/VP7_VP4_VP5_VP1.png" align="center" width='650' height='550'>
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/VP2_VP3_NSP1_NSP2.png" align="center" width='650' height='550'>
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/NSP3_NSP4_NSP5_2.png" align="center" width='750' height='600'>
     
 Local strains cluster with similar genotypes observed across the world. <br>
-The vaccine strain clustered distantyl <br>
+The vaccine strain clustered distantyl from local strains <br>
 
+**Indicate lineages for the G and P trees**
 
-### T6 Genotype
+#### T6 Genotype
 
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/T6.aln.treefile.png" align="center">
     
@@ -72,42 +79,43 @@ The vaccine strain clustered distantyl <br>
  Potential rearsortant strain or zoonotic transmission
  
     
-### E2 Genotype
+#### E2 Genotype
 
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/E2.aln.nwk.png" align="center">
     
  Clustred with rearsortant strains from Vietnam and Japan <br>
  Potential rearsortant between DS-1-like and Wa-like strains.
  
-
-### Selection Pressure
+### c. Whats the 'immunogenic'significance of the observed mutations?
+#### i. Selection Pressure
 Refers to determining evolutionary rate of protein coding genes - which is based on calculation the ratio of dN/dS substitutions. 
 dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positive selection. The ratio summarizes evolutionary rate of genes and can be an informative feature in identifying genes which are the most conserved and those that are less conserved(undergone adaptive evolution). The rate of change indicates selective pressure occuring at non-synonymous sites.
 
-## Steps
+ **Steps**
 
-  1. Analysis carried out in Datamonkey <br>  
-  2. Use multiple models in the website (FEL, FUBAR, mixed effects model of episodic selection (MEME)) <br>
-  3. Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
+1. Analysis carried out in Datamonkey <br>  
+2. Use multiple models in the website (FEL, FUBAR, mixed effects model of episodic selection (MEME)) <br>
+3. Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
       <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Sites_selection_pressure.png" align="center">
   
-  None of the pre and post vaccine changes were detected to be under any selection
+None of the pre and post vaccine changes were detected to be under any selection
   
-      <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/alignment.png" align="center" width='800' height='550'>
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/alignment.png" align="center" width='800' height='550'>
   
     
-## Comparison of B-cell epitopes between the vaccine strain and the locally observed strains <br>
+#### ii. Comparison of B-cell epitopes between the vaccine strain and the locally observed strains <br>
 Amino acid identity between the epitopes and the vaccine implies the compatibility of the antibodies to the antigens. Differences imply potential failure by the vaccine strains to recognize antigens upon infection.
-### VP7 Epitopes
+
+**VP7 Epitopes**
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Iamges/VP7_Rotarix_vaccine_epitope.png" align="center">
 
 
-### VP4 Epitopes
+**VP4 Epitopes**
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/VP4_Rotarix_epitope.png" align="center">
     
 No unique epitopes observed in the vaccine strains. No changes in the epitopes after vaccine introduction.
        
-## Cytotoxic VP7 T-Cell Epitopes
+#### iii. Cytotoxic VP7 T-Cell Epitopes
 CD8-Tcells play an important role in clearing of RVA infection and providing protection against re-infections.
 Despite the fact that the antibodies, particularly IgA, are generally regarded as the most important protective factors against rotavirus infection, the role of cell-mediated immunity, namely CD8? T lymphocytes, has also been demonstrated in several studies. Animal models are quite popular for studying rotavirus infection. In particular, a knockout mouse model with defective specific immunedependent genes resulting in a decrease in certain lymphocyte populations showed that CD8? T cells can mediate the clearance of rotavirus infection from the organism, resulting in complete short-term and partial long-term protection against reinfection. Two linear cytotoxic T lymphocyte (CTL) epitopes have previously been shown to be present on VP7 at amino acid positions 16-28 and 40-52, [Morozova et al,2015](https://doi.org/10.1007/s00705-015-2439-6)
 
@@ -117,12 +125,13 @@ There is growing evidence that RVA strains carrying different subgenotypes or su
 Analysis of Tcell epitopes only found two major differences between the vaccine and circulating strains. Figure 3.
         ![image](https://github.com/mikemwanga/MSC-Project/blob/main/Images/T_Cell%20epitopes.png)
 
-
+### Objective 3. Determine the origin and spread patterns of the local strains
+**Bayesian analysis of local data**
 ## Evolutionary rate, time scaled phylogeny and population dynamic analysis
 
 Perform Cluster analysis and sequence similarity was carried out using the online tool CD-HIT version 4.6 http://weizhongli- lab.org/cdhit_suite/cgi-bin/index.cgi?cmd1⁄4cd-hit-est. The strength of the temporal clock signal of the dataset was carried out by conducting a regression of root to tip genetic distances against year of sampling analysis using TempEst v 1.5. Two clock models were initially evaluated strict and relaxed molecular clock, with four different tree priors, constant population size, exponential population size, Bayesian Skyride plot and Gausian Markov Random Field Skyride plot. Each selected model was run for an initial 30, 000, 000 states. Models were then compare using the Bayes factor with marginal likelihood estimated using the path sampling and stepping stone methods imple- mented in BEAST version 1.10.4 [19]. Further analysis was then done using the relaxed clock with Gausian Markov Random Field Skyride plot coalescent prior. The MCMC run was set at 100, 000, 000 states with a 10% burn in. Results were visualised in Tracer version 1.8. (http://tree. bio.ed.ac.uk/software/tracer/). The effective sampling size (ESS) was calculated for each parameter, all ESS values were >200 indicating suf- ficient sampling. Bayesian skyride analysis was carried out to visualise the epidemic evolutionary history using Tracer v 1.8. (http://tree.bio.ed. ac.uk/software/tracer/). The maximum clade credibility tree was selected from the posterior tree distribution after 10% burn-in using TreeAnnotator v 1.8. (http://beast.bio.ed.ac.uk/TreeAnnotator/) and a time scaled MCC tree was visualised in FigTree vs 1.4.
 
-### Bayesian analysis of local data
+
 Tempest showed sufficient signal for the local data
 
 <<<<<<< HEAD
