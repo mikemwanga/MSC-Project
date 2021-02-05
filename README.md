@@ -121,7 +121,7 @@ Perform Cluster analysis and sequence similarity was carried out using the onlin
 ### Bayesian analysis of local data
 Tempest showed sufficient signal for the local data
 
-![image](https://github.com/mikemwanga/MSC-Project/blob/main/Images/tempest_sufficient_signal.png)
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/tempest_sufficient_signal.png" align="center">
 
 Performed coalescence analysis usin Beauti and Beast using the following parameters
  - Lognormal relaxed (uncorrelated) clock model (67), 
