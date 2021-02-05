@@ -99,11 +99,11 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
 ## Comparison of B-cell epitopes between the vaccine strain and the locally observed strains <br>
 Amino acid identity between the epitopes and the vaccine implies the compatibility of the antibodies to the antigens. Differences imply potential failure by the vaccine strains to recognize antigens upon infection.
 ### VP7 Epitopes
-   <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Iamges/VP7_Rotarix_vaccine_epitope.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Iamges/VP7_Rotarix_vaccine_epitope.png" align="center">
 
 
 ### VP4 Epitopes
-    <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/VP4_Rotarix_epitope.png" align="center">
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/VP4_Rotarix_epitope.png" align="center">
     
 No unique epitopes observed in the vaccine strains. No changes in the epitopes after vaccine introduction.
        
