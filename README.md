@@ -151,15 +151,25 @@ Loaded the resulting log file to Tracer. ESS values not significant
 
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/tracer_output.png" align="center">
 
-Running it with 40 million chains
-All parameters constant
+
+
+
+
 
 
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Screenshot%202021-02-05%20at%2013.53.33.png" align="center">
 
 
+Re-analysed the data by adding global sequences and performed 2 million MCMC chains. 
+Parameters:
+ - Model HKY with estimated base frequencies
+ - lognormal, Uncorrelated relaxed clock model
+ - Tree prior  - coalescent constant with random starting tree
+ - Uniform priors for tmrca, ucld-mean and frequencies
 
+Load *tempest_run4* file
 
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/tempest_run4.png" align="center">
 
 
 
