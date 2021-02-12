@@ -167,9 +167,15 @@ Parameters:
  - Tree prior  - coalescent constant with random starting tree
  - Uniform priors for tmrca, ucld-mean and frequencies
 
-Load *tempest_run4* file
+
+TempEst had a strong signal
 
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/tempest_run4.png" align="center">
+
+
+The ESS converged satisfactorily
+
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/ESS_run4.png" align="center">
 
 
 
