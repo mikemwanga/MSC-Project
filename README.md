@@ -33,7 +33,7 @@ Phylogenetic Inferences
 
 <img src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Genotype_prevalence.png" align="center" width="750" height="500">
 Table 1 <br>
-
+<br>
 Table 1 above shows the observed genogroup constellations of the G1P[8] strains.
 While there was variation in prevalence of G1P[8] strains, they were continoiusly observed throughout the surveillance period. It was the dominant genotype in 2011, 2013, 2015, and 2017. It caused up to 47% of all RVA infections in Kenya.
 
