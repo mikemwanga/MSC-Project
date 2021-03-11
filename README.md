@@ -22,22 +22,24 @@ To investigate the genomic characteristics of RVA G1P[8] strains circulating in 
 
 
 ## Methods
-    Genome assembly
+Genome assembly
     
-    Multiple seqeunce alignments
+Multiple seqeunce alignments
     
-    Phylogenetic reconstructions
-## Preliminary Outputs
+Phylogenetic Inferences
+
+## Results
 
 #### G1P[8] prevalence in Kilifi
 
 <img src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Genotype_prevalence.png" align="center" width="750" height="500">
-
+*Table 1*
+**Table 1** above shows the observed genogroup constellations of the G1P[8] strains.
 While there was variation in prevalence of G1P[8] strains, they were continoiusly observed throughout the surveillance period. It was the dominant genotype in 2011, 2013, 2015, and 2017. It caused up to 47% of all RVA infections in Kenya.
 
 ### Objective 1: 
 
-#### What are the genomic constellations of G1P[8]
+#### What are the genomic constellations of the observed G1P[8]
 
 All possed a Wa-like genotype constellation, except two post-vaccine strains that; one possed a DS-1 like genotype E2 on the NSP4 gene segment, and the other possed a T6 genotype on the NSP3 gene segment. Potential rearssortants.
 
