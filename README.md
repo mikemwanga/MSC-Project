@@ -130,6 +130,11 @@ There is growing evidence that RVA strains carrying different subgenotypes or su
 Analysis of Tcell epitopes only found two major differences between the vaccine and circulating strains. Figure 3.
         ![image](https://github.com/mikemwanga/MSC-Project/blob/main/Images/T_Cell%20epitopes.png)
 
+Changes in position V42M and A46V are only observed in post-vaccine strains. Needs further analysis to determine whether this affect viral clearence. Does this affect the structure of the proteins?
+
+
+
+
 ### Objective 3. Determine the origin and spread patterns of the local strains
 **Bayesian analysis of local data**
 ## Aimed at determining the Evolutionary rate and tmrca of the VP7 and VP4 genes
