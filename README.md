@@ -100,10 +100,13 @@ dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positiv
 3. Sequences submitted to Datamonkey for predictions which are hereby recorded for all the segment
       <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Sites_selection_pressure.png" align="center">
   
-None of the pre and post vaccine changes were detected to be under any selection
+
   
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/alignment.png" align="center" width='800' height='550'>
 
+None of the pre and post vaccine changes were detected to be under any selection. Additionally, none of the post-vaccine mutations fall within the mapped neutralizing epitopes of VP7 and VP4 proteins. **Whats the structural significance of the replaced amino acids in the post-vaccine strains to the overall protein conformation?**
+
+Perfome Structural analysis of the observed strains and compare that to the vaccine strain. How is this perfomed?
 
 
 
