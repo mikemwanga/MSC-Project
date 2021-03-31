@@ -194,21 +194,24 @@ The ESS converged satisfactorily
 
 
 
+## Protein structure based on the B/A vacine changes
 
+Use UCSF Chimera to generate protein models.
 
-
-
-
-
-
+Load seqeunce (protein) data to Chimera
+Perform blast in the PDB db to search for the closest model
+Generate model using Modeller
+Visualize the mutations.
 
 
 
 ## Change in diversity before and after VI
+
+No sufficient signal to perform this
 ## Map vaccination status of your geographical location
 ## Map areas where G1P8 was identified
 ## Perfome network analysis or something
-## Protein structure based on the B/A vacine changes
+
 ## Determine severity of the disease in vaccinated vs unvaccinated and in those rearssortant viruses
 
 
