@@ -196,7 +196,11 @@ Use UCSF Chimera to generate protein models.
 Load seqeunce (protein) data to Chimera
 Visualize the mutations.
 
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/ESS_run4.png" align="center">
+VP7 G1 amino acid mutations changes
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/G1_aa_changes.png" align="center">
+  
+VP4 P[8] amino acid mutations
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/P8_AA_changes.png" align="center">
 
 
 
