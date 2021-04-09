@@ -189,8 +189,14 @@ The ESS converged satisfactorily
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/ESS_run4.png" align="center">
 
 
+## Protein structure based on the B/A vacine changes
 
+Use UCSF Chimera to generate protein models.
 
+Load seqeunce (protein) data to Chimera
+Visualize the mutations.
+
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/ESS_run4.png" align="center">
 
 
 
