@@ -213,12 +213,7 @@ VP4 P[8] amino acid mutations
 
 
 
-
-## Change in diversity before and after VI
 ## Map vaccination status of your geographical location
 ## Map areas where G1P8 was identified
 ## Perfome network analysis or something
-## Protein structure based on the B/A vacine changes
-## Determine severity of the disease in vaccinated vs unvaccinated and in those rearssortant viruses
-
-
+## Structural comparison between pre and post
