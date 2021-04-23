@@ -47,8 +47,6 @@ All possed a Wa-like genotype constellation, except two post-vaccine strains tha
 
 ### Objective 2:
 
-Tables below show multiple amino acid substitutions that occured between the pre and post-vaccine seasons
-<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/amino_acid_substitutions.png" align="center">
   
   
 ### a. How is the local diversity/each segment/clustering patterns
@@ -93,6 +91,10 @@ The vaccine strain clustered distantyl from local strains <br>
  Potential rearsortant between DS-1-like and Wa-like strains.
  
 ### c. Whats the 'immunogenic'significance of the observed mutations?
+
+Tables below show multiple amino acid substitutions that occured between the pre and post-vaccine seasons
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/amino_acid_substitutions.png" align="center">
+
 #### i. Selection Pressure
 Refers to determining evolutionary rate of protein coding genes - which is based on calculation the ratio of dN/dS substitutions. 
 dN/dS < 1 - purifying selection, dN/dS =1 neutral selection, dN/dS > 1 - positive selection. The ratio summarizes evolutionary rate of genes and can be an informative feature in identifying genes which are the most conserved and those that are less conserved(undergone adaptive evolution). The rate of change indicates selective pressure occuring at non-synonymous sites.
