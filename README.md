@@ -47,6 +47,10 @@ All possed a Wa-like genotype constellation, except two post-vaccine strains tha
 
 ### Objective 2:
 
+Tables below show multiple amino acid substitutions that occured between the pre and post-vaccine seasons
+<image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/amino_acid_substitutions.png" align="center">
+  
+  
 ### a. How is the local diversity/each segment/clustering patterns
 <image src="https://github.com/mikemwanga/MSC-Project/blob/main/Images/Local_diversity_claster_patterm.png" align="center">
 
