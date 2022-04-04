@@ -1,0 +1,121 @@
+---
+title: "R Notebook"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+# G1P[8] manuscript Analysis and codes
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE,message=FALSE)
+knitr::opts_knit$set(root.dir="/Users/mikemwanga/Dropbox/G1P[8]/")
+
+```
+
+Graphical representation of phylotrees with global data
+
+```{r load libraries}
+library(ggplot2)
+library(ggtree)
+#library(foreign)
+#library(gridExtra)
+#library(grid)
+#library(ggpubr)
+#library(ape)
+#library(tidyverse)
+#library(reshape2)
+#library(readxl)
+
+```
+
+
+```{r, read trees}
+
+vp6_tree = read.tree('./data/Global/vp6/vp6.aln6.fas.nwk')
+vp7_tree = read.tree('./data/Global/vp7/vp7.aln9.fas.nwk')
+vp4_tree = read.tree('./data/Global/vp4/vp4.aln8.fas.nwk')
+vp3_tree = read.tree('./data/Global/vp3/vp3.aln5.fas.nwk')
+vp2_tree = read.tree('./data/Global/vp2/vp2.aln6.fas.nwk')
+vp1_tree = read.tree('./data/Global/vp1/vp1.aln9.fas.nwk')
+nsp5_tree = read.tree('./data/Global/nsp5/nsp5.aln6.fas.nwk')
+nsp4_tree = read.tree('./data/Global/nsp4/nsp4.aln6.fas.nwk')
+nsp3_tree = read.tree('./data/Global/nsp3/nsp3.aln3.fas.nwk')
+nsp2_tree = read.tree('./data/Global/nsp2/nsp2.aln5.fas.nwk')
+nsp1_tree = read.tree('./data/Global/nsp1/nsp1.aln8.fas.nwk')
+
+
+vp7_anno = read.table('./data/Global/vp7/vp7_annotation.txt', header=TRUE, sep='\t')
+vp6_anno = read.table('./data/Global/vp6/vp6_annotation.txt', header=TRUE, sep='\t')
+vp4_anno = read.table('./data/Global/vp4/vp4_annotation.txt', header=TRUE, sep='\t')
+vp3_anno = read.table('./data/Global/vp3/vp3_annotation.txt', header=TRUE, sep='\t')
+vp2_anno = read.table('./data/Global/vp2/vp2_annotation.txt', header=TRUE, sep='\t')
+vp1_anno = read.table('./data/Global/vp1/vp1_annotation.txt', header=TRUE, sep='\t')
+nsp5_anno = read.table('./data/Global/nsp5/nsp5_annotation.txt', header=TRUE, sep='\t')
+nsp4_anno = read.table('./data/Global/nsp4/nsp4_annotation.txt', header=TRUE, sep='\t')
+nsp3_anno = read.table('./data/Global/nsp3/nsp3_annotation.txt', header=TRUE, sep='\t')
+nsp2_anno = read.table('./data/Global/nsp2/nsp2_annotation.txt', header=TRUE, sep='\t')
+nsp1_anno = read.table('./data/Global/nsp1/nsp1_annotation.txt', header=TRUE, sep='\t')
+
+
+cols = c("postvaccine" = "red",
+         "prevaccine" = "blue4",
+         "global" = NA)
+
+```
+
+```{r}
+pdf(file="./Figures/nsp1_global_tree.pdf")
+ggtree(nsp1_tree) %<+% nsp1_anno +
+  geom_tippoint(size=0.5) + aes(colour=Key)+
+  scale_color_manual(values = cols) +
+  theme_tree2()
+
+dev.off()
+```
+
+
+
+
+
+Alluvial plots
+
+
+```{r}
+library(ggalluvial)
+library(ggplot2)
+
+data = read.table("./Analysis/clustering_2.txt", header=T, sep="\t")
+
+head(data)
+
+```
+
+```{r}
+ggplot(data=data,
+       aes(y="Period", axis1=VP7, axis2=VP4)) +
+  geom_alluvium(aes(fill=strain), width=1/11) +
+  geom_stratum(width=1/11, fill="black",color="gray") +
+  geom_label(stat="stratum", aes(label=after_stat(stratum))) +
+  scale_x_discrete(limits = c("VP7","VP4"),expand=c(.05,.05))
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

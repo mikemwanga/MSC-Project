@@ -1,0 +1,71 @@
+LOCUS       AB585920                 981 bp    RNA     linear   VRL 01-APR-2011
+DEFINITION  Rotavirus A VP7 gene for outer capsid protein VP7, complete cds,
+            strain: 6871.
+ACCESSION   AB585920
+VERSION     AB585920.1
+KEYWORDS    .
+SOURCE      Rotavirus A
+  ORGANISM  Rotavirus A
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Reoviridae; Sedoreovirinae;
+            Rotavirus.
+REFERENCE   1
+  AUTHORS   Mitui,M.T., Chan,P.K., Nelson,E.A., Leung,T.F., Nishizono,A. and
+            Ahmed,K.
+  TITLE     Co-dominance of G1 and emerging G3 rotaviruses in Hong Kong: A
+            three-year surveillance in three major hospitals
+  JOURNAL   J. Clin. Virol. 50 (4), 325-333 (2011)
+   PUBMED   21330195
+  REMARK    DOI:10.1016/j.jcv.2011.01.008
+REFERENCE   2  (bases 1 to 981)
+  AUTHORS   Mitui,M.T. and Ahmed,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2010) Contact:Kamruddin Ahmed Oita University,
+            Research Promotion Project; 1-1 Hasama machi, Yufu, Oita 879-5593,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..981
+                     /organism="Rotavirus A"
+                     /mol_type="genomic RNA"
+                     /strain="6871"
+                     /serotype="G1P[8]"
+                     /isolation_source="stool"
+                     /host="Homo sapiens 8 months old boy"
+                     /db_xref="taxon:28875"
+                     /segment="9"
+                     /country="Hong Kong"
+                     /collection_date="05-Mar-2007"
+                     /note="synonym: Rotavirus group A"
+     gene            1..981
+                     /gene="VP7"
+     CDS             1..981
+                     /gene="VP7"
+                     /codon_start=1
+                     /product="outer capsid protein VP7"
+                     /protein_id="BAJ78622.1"
+                     /translation="MYGIEYTTILIFLISIILLNYILKSVTRIMDYIIYRFLLISIAL
+                     FALTKAQNYGLNIPITGSMDTVYSNSTQEGIFLTSTLCLYYPTEASNQISDGEWKDSL
+                     SQMFLTKGWPTGSVYFKEYSNIVDFSVDPQLYCDYNLVLMKYDQNLELDMSELADLIL
+                     NEWLCNPMDITLYYYQQSGESNKWISMGSSCTVKVCPLNTQTLGIGCQTTNVDSFETV
+                     AENEKLAIVDVVDGINHKINLTTTTCTIRNCKKLGPRENVAVIQVGGSNILDITADPT
+                     TNPQIERMMRVNWKRWWQVFYTIVDYINQIVQVMSKRSRSLNSAAFYYRV"
+ORIGIN      
+        1 atgtatggta ttgaatatac cacaattcta atctttctga tatcaatcat tctactcaac
+       61 tatatattaa aatcagtgac ccgaataatg gactacatta tatatagatt tttgttaatt
+      121 tctatagcat tatttgcatt aactaaagct cagaactatg gacttaatat accaataaca
+      181 ggatcaatgg atactgtata ctccaattct actcaagaag gaatatttct aacatccaca
+      241 ttatgtttgt attatccaac tgaagcaagt aatcaaatca gtgatggtga atggaaagac
+      301 tcattatcgc aaatgtttct tacaaaaggt tggccaacag gatcagtcta ttttaaagag
+      361 tactcaaata ttgttgattt ttccgttgac ccacaattat attgtgatta taacttagta
+      421 ctaatgaagt atgatcaaaa tcttgaatta gatatgtcag aattagctga tttgatattg
+      481 aatgaatggt tatgtaatcc aatggatata acattatatt attaccaaca atcgggagaa
+      541 tcaaataagt ggatatcaat gggatcatcg tgtactgtga aagtgtgtcc actgaataca
+      601 caaacgttgg gaataggttg tcaaacaacg aatgtagact cattcgaaac agttgctgag
+      661 aatgaaaaat tagctatagt ggatgtcgtt gatgggataa atcataaaat aaatttgaca
+      721 actacgacat gtactattcg aaattgtaag aagttaggtc caagagagaa tgtagctgta
+      781 atacaagttg gtggctctaa tatattagac ataacagcgg atccaacgac taatccacaa
+      841 attgagagaa tgatgagagt gaattggaaa agatggtggc aagtatttta tactatagta
+      901 gattatatta atcagattgt acaggttatg tccaaaagat caagatcact aaattctgct
+      961 gcgttttatt atagagtata g
+//
+

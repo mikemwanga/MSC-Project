@@ -1,0 +1,5 @@
+These are time-resolved phylotrees generated using treetime.
+
+Code below
+
+treetime --aln aln.fas --tree aln.nwk --dates metadata.txt --clock-filter 0 --outdir tree_out
